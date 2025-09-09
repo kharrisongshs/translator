@@ -31,4 +31,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: pptx_translator_exe
-        path: dist/pptx_translator.exe
+        path: dist/translate_ppt.exe
