@@ -28,7 +28,7 @@ jobs:
         pyinstaller --onefile translate_ppt.py
 
     - name: Upload executable
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: pptx_translator_exe
         path: dist/pptx_translator.exe
